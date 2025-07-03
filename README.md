@@ -33,3 +33,30 @@ Dieses Projekt stellt eine leere Grundstruktur für das WIZZARD Tool bereit. Du 
   ```
 
 Sieh dir auch die Datei `todo.txt` an und hänge dort eigene Aufgaben an.
+
+## Zusätzliche Tipps (für Einsteiger)
+
+Hier findest du weitere einfache Vorschläge. Fachbegriffe stehen in Klammern und
+werden kurz erklärt.
+
+1. **Virtuelle Umgebung neu aufsetzen** (isolierte Python-Umgebung):
+   ```bash
+   rm -rf .venv
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. **Abhängigkeiten aktualisieren** (Libraries):
+   ```bash
+   pip install --upgrade -r requirements.txt
+   ```
+
+3. **Git-Status prüfen** (Versionskontrolle):
+   ```bash
+   git status
+   ```
+
+4. **Linting ausführen** (Code-Format-Prüfung):
+   ```bash
+   bash scripts/pre-commit
+   ```

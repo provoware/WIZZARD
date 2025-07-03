@@ -1,4 +1,5 @@
-- [ ] Projektstruktur vervollständigen
+- [x] Projektstruktur vervollständigen (verzeichnisstruktur.txt erstellt)
 - [ ] Python-Abhaengigkeiten installieren
 - [ ] GUI-Startskript testen
 - [ ] Dokumentation erweitern
+- [ ] Weiterführende Einsteiger-Tipps ergänzen

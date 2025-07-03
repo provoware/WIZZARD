@@ -1,0 +1,47 @@
+# Verzeichnisstruktur des WIZZARD Tools
+
+Die folgende Übersicht zeigt alle wichtigen Ordner und Dateien. Sie hilft dir, dich schnell zurechtzufinden.
+
+```
+/ (Projektwurzel)
+├─ README.md                # Einstieg und Schnellstart
+├─ aufgaben.txt             # Größere Aufgabenliste
+├─ config/                  # Konfigurationsdateien
+│   ├─ defaults.yaml        # Grundkonfiguration
+│   ├─ schema.json          # JSON-Schema zur Validierung
+│   └─ secrets.example.json # Beispiel für geheime Schlüssel
+├─ data/                    # Laufzeitdaten
+│   └─ state.db             # Platzhalter für eine SQLite-Datenbank
+├─ docs/                    # Dokumentation
+│   ├─ ARCHITECTURE.md      # Geplante Architektur
+│   ├─ CHANGELOG.md         # Änderungsprotokoll
+│   ├─ CONTRIBUTING.md      # Hinweise zum Mitwirken
+│   ├─ README.md            # Dokumentationsübersicht
+│   └─ RELEASE_NOTES/       # Infos zu einzelnen Releases
+├─ modules/                 # Erweiterbare Module
+│   ├─ audio/               # Platz für Audiomodul
+│   ├─ extensions/          # Erweiterungen von Drittanbietern
+│   ├─ genres/              # Genrebezogene Funktionen
+│   ├─ settings/            # Einstellungen
+│   ├─ todo/                # To-Do-Verwaltung
+│   ├─ update/              # Update-Mechanismen
+│   ├─ video/               # Videofunktionen
+│   └─ wiki/                # Wissensdatenbank
+├─ scripts/                 # Hilfsskripte
+│   ├─ 0000-testall         # Führt alle Tests aus
+│   ├─ ci_pipeline.yml      # Beispielkonfiguration für CI/CD
+│   ├─ pre-commit           # Pre-Commit-Hook
+│   ├─ start_gui_only.sh    # Startet nur die GUI
+│   └─ start_wizard.sh      # Startet das komplette Tool
+├─ src/                     # Anwendungscode
+│   ├─ core/                # Steuerlogik
+│   ├─ services/            # Dienste wie Dateisystem oder Netzwerk
+│   └─ ui/                  # Grafische Oberfläche
+├─ tools/                   # Kleine Helferskripte
+│   ├─ code_metrics.py      # Berechnet Code-Metriken
+│   └─ interactive_shell.py # Einfaches REPL
+├─ requirements.txt         # Python-Abhängigkeiten
+└─ todo.txt                 # Kurzfristige Aufgabenliste
+```
+
+Diese Datei wird ergänzt, sobald neue Ordner oder Dateien hinzukommen.
