@@ -1,0 +1,4 @@
+# Beispielhafte CI/CD-Konfiguration
+stages:
+  - test
+  - deploy
