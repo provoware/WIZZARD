@@ -1,0 +1,43 @@
+from datetime import datetime
+
+# Beispielhafte TODOs und durchgeführte Schritte
+done = [
+    "GUI-Hauptmodul mit Qt-Grid und Sidebar aufgebaut",
+    "Widget-Pooling für Submodule implementiert",
+    "Debounce für Splitter eingeführt (QTimer)",
+    "Lazy-Loading beim Modul-Klick hinzugefügt",
+    "Tastenkürzel: Ctrl+L/R, F1, F5",
+    "QSettings für Zoom, Splitter, Theme aktiviert",
+    "Barrierefreie Labels (`accessibleName`) gesetzt",
+    "Theme-Switcher (hell/dunkel) umgesetzt",
+    "Einstellungsdialog mit Zoom-Slider erstellt",
+]
+
+todo = [
+    "Plugin-System vollständig mit pluggy integrieren",
+    "Submodul-Template (`BaseModule`) definieren",
+    "Plugin-Demo (z. B. Texteditor) realisieren",
+    "Barrierefreiheit: Fokusreihenfolge testen & setzen",
+    "Unit-/UI-Tests mit pytest-qt ergänzen",
+    "Persistenz: letzte Plugin-Auswahl speichern",
+    "Fehlerbehandlung mit visuellem Feedback erweitern",
+    "Theming mit externen QSS-Dateien vereinheitlichen",
+    "Hot-Reload für Plugins prüfen",
+    "Build-System (.deb oder AppImage) vorbereiten",
+]
+
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+# Dakudatei generieren
+dakudatei = f"""# ✅ DAKUDATEI – Stand {timestamp}
+
+## 💡 Durchgeführte Schritte (erledigt):
+""" + "\n".join(f"- [x] {entry}" for entry in done) + """
+
+## 🔜 Offene Punkte (noch umzusetzen):
+""" + "\n".join(f"- [ ] {entry}" for entry in todo)
+
+# In Datei schreiben
+filepath = "/mnt/data/dakudatei_dashboard_modul.txt"
+with open(filepath, "w", encoding="utf-8") as f:
+    f.write(dakudatei)
