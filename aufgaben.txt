@@ -1,0 +1,59 @@
+aufgaben.txt
+
+CHANGELOG erweitern
+
+Dokumentiere alle bisherigen Änderungen.
+Lege Format und Struktur für künftige Änderungsdokumentation fest.
+start_wizard.sh Skript ausbauen
+
+Ersetze den Platzhalter durch den echten Startbefehl.
+Ergänze Fehlerbehandlung und Logging.
+Füge ggf. Parameterübergabe hinzu.
+Projektstruktur prüfen und anpassen
+
+Ergänze ggf. Ordner wie src/, tests/, config/, docs/.
+Passe .gitignore an neue Strukturen an.
+README und Dokumentation aktualisieren
+
+Beschreibe neue Dateien und deren Verwendung.
+Erkläre das Starten des Tools und die Konfigurationsoptionen.
+Erste Tests implementieren
+
+Lege ein Verzeichnis für Tests an.
+Schreibe Basistests für das Startskript und das JSON-Schema.
+Versionskontrolle & Workflow definieren
+
+Lege Branch-, Commit- und Review-Workflow fest.
+Dokumentiere den Workflow im Projekt.
+Richte ggf. automatische Checks (z.B. GitHub Actions) ein.
+Wenn du möchtest, kann ich diesen Text auch direkt als Datei im Repo-Format ausgeben (mit Zeilennummern oder als Codeblock). Sag Bescheid, falls du das möchtest!
+
+übernimm die aufagben
+Hier ist die aufgaben.txt mit den übernommenen Aufgaben aus den Punkten 3 bis 8:
+
+txt
+1. CHANGELOG erweitern
+   - Dokumentiere alle bisherigen Änderungen im docs/CHANGELOG.md.
+   - Lege Format und Struktur für zukünftige Änderungsdokumentation fest.
+
+2. start_wizard.sh Skript ausbauen
+   - Ersetze den Platzhalter durch den echten Startbefehl.
+   - Ergänze Fehlerbehandlung und Logging.
+   - Füge ggf. Parameterübergabe hinzu.
+
+3. Projektstruktur prüfen und anpassen
+   - Ergänze ggf. Ordner wie src/, tests/, config/, docs/.
+   - Passe .gitignore an neue Strukturen an.
+
+4. README und Dokumentation aktualisieren
+   - Beschreibe neue Dateien und deren Verwendung.
+   - Erkläre das Starten des Tools und die Konfigurationsoptionen.
+
+5. Erste Tests implementieren
+   - Lege ein Verzeichnis für Tests an.
+   - Schreibe Basistests für das Startskript und das JSON-Schema.
+
+6. Versionskontrolle & Workflow definieren
+   - Lege Branch-, Commit- und Review-Workflow fest.
+   - Dokumentiere den Workflow im Projekt.
+   - Richte ggf. automatische Checks (z.B. GitHub Actions) ein.
