@@ -1,0 +1,124 @@
+Projekt: WIZZARD Tool – Python-Modulprüfung & GUI-Wizard (Ultimate Expert Edition)
+
+---
+
+## 1. Holistische Architektur & Ziele
+
+**Essenz:**
+Das WIZZARD Tool kombiniert **automatische Codequalitätssicherung** mit einer **hochgradig modularen GUI**, um Entwickler aller Erfahrungsstufen in Echtzeit zu unterstützen. Es verbindet statische Analyse, automatisches Refactoring, Versionskontrolle und Reporting in einem selbstheilenden Ökosystem.
+
+**Vision:**
+
+* **Zero-Bug-Commit:** Durch Pre-Commit-Pipeline und Live-Feedback bereits beim Schreiben.
+* **Plug-in-Ökosystem:** Schnelle Einbindung neuer Analyse-, Formatierungs- oder CI-Plugins.
+* **Barrierefreiheit & Internationalisierung:** Fokus auf Screenreader-Kompatibilität, ARIA-Rollen, Farbschemata für Farbsehschwäche, Mehrsprachigkeit.
+
+---
+
+## 2. Erweiterte Verzeichnis- & Schichtenstruktur
+
+```
+WIZZARDTOOL-MODUL/
+├─ .venv/                             # Isolierte Python-Umgebung (PEP 582 Support)
+├─ config/                            # Konfigurationslayer
+│   ├─ defaults.yaml                  # Standardparameter
+│   ├─ schema.json                    # Validierungsschema
+│   └─ secrets.example.json           # Platzhalter für API-Keys
+├─ data/                              # Laufzeitdaten & Backups
+│   ├─ backups/                       # Automatische Snapshots (Timestamped)
+│   ├─ logs/                          # Detaillierte Log-Dateien (RotatingFileHandler)
+│   ├─ metrics/                       # Code-Coverage, Lint-Statistiken
+│   └─ state.db                       # SQLite für Wizard-State-Persistenz
+├─ modules/                           # Kernmodule (Signal/Slot Plugin-Architektur)
+│   ├─ audio/                         # Audio-Regionen & Metadaten-Editor
+│   ├─ video/                         # Timeline, Markers, Regions.js-Integration
+│   ├─ genres/                        # JSON-DB, Tag-Cloud-Visualisierung
+│   ├─ todo/                          # Kanban-Board, Drag-&-Drop, Persistence
+│   ├─ wiki/                          # Volltextsuche, Markdown-Rendere
+│   ├─ update/                        # GitHub/GitLab-API, Auto-Update-Daemon
+│   ├─ settings/                      # Theme, Keyboard-Shortcuts, Localization
+│   └─ extensions/                    # Third-Party-Plug-ins (Autoload)
+├─ src/                               # Anwendungscode (Separation of Concerns)
+│   ├─ core/                          # Controller, Orchestrator, Event-Bus
+│   ├─ ui/                            # PyQt6/QML-Wrapper, Styling, Animations
+│   └─ services/                      # FileSystem, DB, Network-Clients
+├─ tests/                             # Unit-, Integration-, UI-Tests (pytest + Playwright)
+├─ docs/                              # Ausführliche Dokumentation
+│   ├─ README.md                      # Schnellstart & Bedienung
+│   ├─ ARCHITECTURE.md                # UML, Sequenzdiagramme, Deployment
+│   ├─ CONTRIBUTING.md                # Entwicklungsrichtlinien, Codestyle
+│   ├─ CHANGELOG.md                   # Semantische Versionierung
+│   └─ RELEASE_NOTES/                 # Release-spezifische Infos
+├─ scripts/                           # Automatisierung & CI/CD
+│   ├─ start_wizard.sh                # Local Launch + SelfCheck
+│   ├─ start_gui_only.sh              # GUI-Only für Endnutzer
+│   ├─ 0000-testall                   # End-to-End-Validierung & Refactoring
+│   ├─ pre-commit                     # Git-Hook-Skripte
+│   └─ ci_pipeline.yml                # GitLab CI-Konfiguration
+└─ tools/                             # CLI-Tools & Helpers
+    ├─ code_metrics.py                # Coverage, Complexity, Cyclomatic
+    └─ interactive_shell.py           # REPL mit Kontext-API
+```
+
+---
+
+## 3. Tiefgehende Komponentenanalyse & Best Practices
+
+### 3.1 Kernel (Event-Bus & Orchestrator)
+
+* **Event-Driven:** Zentraler Bus (`pydispatcher`), lose Kopplung zwischen Modul-Widgets.
+* **State Machine:** `transitions`-Library für Wizard-Flow (Start → Scan → Fix → Validate → Exit).
+
+### 3.2 Analyse- & Refactor-Pipeline
+
+1. **Static Type Check:** `mypy` mit Incremental Mode, Cache.
+2. **Linting:** `ruff` für Performance, `flake8` für Plugins (e.g. `flake8-bandit`).
+3. **Complexity Metrics:** `radon` für McCabe und Halstead.
+4. **Auto-Fixes:** `black`, `isort`, `autoflake` (Deep Mode für Docstrings).
+5. **Custom Patches:** Regex & AST-Transformer via `lib2to3` für API-Migration.
+
+### 3.3 GUI & UX
+
+* **Accessibility:** ARIA-Rollen, Tab-Order, Keyboard-Shortcuts (F1-Hilfe, F5-Scan).
+* **Animations:** `Qt Property Animation` für sanfte Feedback-Loops.
+* **Theming:** SCSS-ähnliche Stylesheets, Dark/Light & High-Contrast.
+
+### 3.4 CI/CD & Quality Gates
+
+* **Pipeline:** Pre-commit → Dockerized Lint → pytest → UI-Test (Playwright) → Build `.deb`.
+* **Quality Gates:** Coverage > 90 %, Lint-Fails = Build-Fail.
+* **Release Automation:** `semantic-release` für GitLab, Changelog-Generierung.
+
+---
+
+## 4. Experten-Quickstart & Insights
+
+```bash
+# Repository klonen
+git clone https://.../WIZZARDTOOL-MODUL.git
+cd WIZZARDTOOL-MODUL
+
+# Lokal starten mit allen Checks
+bash scripts/start_wizard.sh
+
+# Vollständiges E2E-Testen + Metriken
+bash scripts/0000-testall
+python3 tools/code_metrics.py --report html
+
+# UI-Tests
+pytest tests/ui
+
+# Release vorbereiten
+semantic-release publish
+```
+
+**Unbekannte Fakten & Details:**
+
+* Implementiert **AST-basierte Patcher**, um veraltete PyQt5-APIs auf PyQt6 zu migrieren.
+* Nutzt **SQLite Virtual File System** für schnelles In-Memory-Testing.
+* Baut **`.deb`** mit `fpm` und integriert Autostart in Gnome/KDE.
+* **Telemetry-Opt-In:** Aggregierte, anonyme Qualitätsmetriken zur Verbesserung.
+
+---
+
+*Ultimate Expert Edition: Vollständig durchstrukturierte Enterprise-Architektur mit CI/CD, Accessibility, Plugin-Ökosystem & automatischer API-Migration.*
