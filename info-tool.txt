@@ -1,5 +1,4 @@
 Projekt: WIZZARD Tool – Python-Modulprüfung & GUI-Wizard (Ultimate Expert Edition)
-
 ---
 
 ## 1. Holistische Architektur & Ziele
