@@ -1,0 +1,4 @@
+- [ ] Projektstruktur vervollständigen
+- [ ] Python-Abhaengigkeiten installieren
+- [ ] GUI-Startskript testen
+- [ ] Dokumentation erweitern
