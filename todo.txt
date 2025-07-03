@@ -2,3 +2,10 @@
 - [ ] Python-Abhaengigkeiten installieren
 - [ ] GUI-Startskript testen
 - [ ] Dokumentation erweitern
+
+- [ ] Release-Paket (.deb oder AppImage) vorbereiten
+- [ ] Pluginsystem mit pluggy einrichten (BaseModule, Demo-Plugin)
+- [ ] Hot-Reload und Speicherung letzter Plugin-Auswahl
+- [ ] Theming vereinheitlichen und Fehlermeldungen anzeigen
+- [ ] Unit- und UI-Tests mit pytest-qt erstellen
+- [ ] start_wizard.sh um Logging und Parameter erweitern
