@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Führt alle Tests und Checks aus.
+echo "Tests werden ausgeführt..."

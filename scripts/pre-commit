@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Platzhalter für Pre-Commit-Hooks.
+echo "Pre-Commit wird ausgeführt..."
