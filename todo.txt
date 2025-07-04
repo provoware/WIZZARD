@@ -27,3 +27,5 @@
 - [ ] Backup des Projekts erstellen
 - [ ] Textsuche mit grep ausprobieren
 - [ ] Abhaengigkeiten einfrieren
+- [x] datei-liste.txt.todo erstellt (Liste aller Dateien generiert)
+- [x] weiterfuehrende_vorschlaege.txt.todo erstellt (Neue Tipps fuer Anfaenger)

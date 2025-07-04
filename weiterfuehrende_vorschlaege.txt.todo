@@ -1,0 +1,29 @@
+1. **Letzte Änderungen anschauen** (`git log`; Liste der letzten Sicherungspunkte)
+   ```bash
+   git log --oneline
+   ```
+   Damit siehst du kompakt die letzten Änderungen im Projekt.
+
+2. **Neuen Entwicklungszweig anlegen** (`branch`; neuer Arbeitsbereich)
+   ```bash
+   git checkout -b neuer_zweig
+   ```
+   Ein Branch ist ein getrennter Bereich, um Neues auszuprobieren.
+
+3. **Datei entfernen** (`git rm`; Löschen mit Git-Verfolgung)
+   ```bash
+   git rm alte_datei.py
+   ```
+   So löschst du eine Datei und Git merkt sich das.
+
+4. **Virtuelle Umgebung beenden** (`deactivate`; Umgebung verlassen)
+   ```bash
+   deactivate
+   ```
+   Dadurch verlässt du die virtuelle Umgebung.
+
+5. **Installierte Pakete anzeigen** (`pip list`; Übersicht der Bibliotheken)
+   ```bash
+   python -m pip list
+   ```
+   Dieser Befehl zeigt, welche Pakete installiert sind.
