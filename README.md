@@ -33,3 +33,24 @@ Dieses Projekt stellt eine leere Grundstruktur für das WIZZARD Tool bereit. Du 
   ```
 
 Sieh dir auch die Datei `todo.txt` an und hänge dort eigene Aufgaben an.
+
+## Weitere Schritte fuer Neulinge
+
+4. **Geheimnisse-Datei** (`secrets file`):
+   ```bash
+   cp config/secrets.example.json config/secrets.json
+   ```
+   Damit legst du deine persoenliche Schluesseldatei an.
+
+5. **Code formatieren** (`formatter`):
+   ```bash
+   pip install black
+   black .
+   ```
+   `black` sorgt fuer gleichmaessige Formatierung deines Quellcodes.
+
+6. **Tests ausfuehren** (`testing`):
+   ```bash
+   pytest -q
+   ```
+   Damit pruefst du, ob alles fehlerfrei laeuft.

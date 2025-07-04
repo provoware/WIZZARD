@@ -14,3 +14,6 @@
 - [ ] Abhaengigkeiten mit pip installieren
 - [ ] Konfiguration pruefen und anpassen
 - [ ] start_wizard.sh ausprobieren
+- [ ] secrets.example.json kopieren
+- [ ] Code mit black formatieren
+- [ ] Tests mit pytest ausfuehren
