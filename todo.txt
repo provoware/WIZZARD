@@ -9,3 +9,21 @@
 - [ ] Theming vereinheitlichen und Fehlermeldungen anzeigen
 - [ ] Unit- und UI-Tests mit pytest-qt erstellen
 - [ ] start_wizard.sh um Logging und Parameter erweitern
+
+- [ ] Virtuelle Umgebung einrichten
+- [ ] Abhaengigkeiten mit pip installieren
+- [ ] Konfiguration pruefen und anpassen
+- [ ] start_wizard.sh ausprobieren
+- [ ] secrets.example.json kopieren
+- [ ] Code mit black formatieren
+- [ ] Tests mit pytest ausfuehren
+- [ ] Eigenes Modul schreiben
+- [ ] defaults.yaml bearbeiten
+- [ ] Aenderungen mit Git committen
+
+- [ ] Pre-Commit-Hooks ausfuehren
+- [ ] Code zu GitHub pushen
+- [ ] Modulideen pruefen
+- [ ] Backup des Projekts erstellen
+- [ ] Textsuche mit grep ausprobieren
+- [ ] Abhaengigkeiten einfrieren
