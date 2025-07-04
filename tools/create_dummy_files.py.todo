@@ -1,0 +1,26 @@
+import os
+import subprocess
+
+# This script creates empty dummy files with '.todo' suffix for every tracked
+# file in the git repository that doesn't already end with '.todo' or '.erledigt'.
+
+def get_tracked_files():
+    result = subprocess.run(['git', 'ls-files'], capture_output=True, text=True, check=True)
+    files = result.stdout.strip().split('\n')
+    return [f for f in files if not (f.endswith('.todo') or f.endswith('.erledigt'))]
+
+def create_dummy(file_path):
+    dummy_path = file_path + '.todo'
+    if not os.path.exists(dummy_path):
+        directory = os.path.dirname(dummy_path) or '.'
+        os.makedirs(directory, exist_ok=True)
+        with open(dummy_path, 'w') as f:
+            f.write('# Dummy-Datei fuer %s\n' % file_path)
+        print('created', dummy_path)
+
+def main():
+    for path in get_tracked_files():
+        create_dummy(path)
+
+if __name__ == '__main__':
+    main()

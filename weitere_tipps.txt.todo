@@ -1,0 +1,27 @@
+6. **Verborgene Dateien anzeigen** (`ls -a`; zeigt auch versteckte Dateien)
+   ```bash
+   ls -a
+   ```
+   Damit siehst du alle Dateien inklusive der versteckten.
+
+7. **Aktuellen Stand sichern** (`git add` und `git commit`; Änderungen speichern)
+   ```bash
+   git add meine_datei.py
+   git commit -m "Aenderungen gespeichert"
+   ```
+   So sicherst du deine Arbeit mit zwei Befehlen.
+
+8. **Neues Paket installieren** (`pip install`; neue Bibliothek hinzufuegen)
+   ```bash
+   python -m pip install paketname
+   ```
+   Der Befehl holt das Paket aus dem Internet und installiert es.
+
+9. **Datei suchen** (`grep`; Text in Dateien finden)
+   ```bash
+   grep -R "Suchbegriff" .
+   ```
+   "grep" durchsucht Dateien nach deinem Begriff.
+
+10. **Programme beenden** (`Ctrl+C`; laufendes Programm stoppen)
+    Druecke gleichzeitig die Tasten `Strg` und `C`, um ein laufendes Programm abzubrechen.
