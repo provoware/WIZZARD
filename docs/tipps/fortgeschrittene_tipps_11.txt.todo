@@ -1,0 +1,29 @@
+76. **Ordnerstruktur als Baum anzeigen** (`tree`; Ordner samt Unterordner sehen)
+    ```bash
+    tree mein_ordner/
+    ```
+    `tree` (Baumansicht) zeigt Dateien und Unterordner in einem übersichtlichen Baum.
+
+77. **Symbolischen Link erstellen** (`ln -s`; Verknuepfung zu Datei/Ordner)
+    ```bash
+    ln -s quelle.txt verweis.txt
+    ```
+    `ln` (link) erzeugt mit `-s` (symbolic) eine Art Verknuepfung zu einer Datei.
+
+78. **Logdatei laufend beobachten** (`tail -f`; neue Zeilen automatisch zeigen)
+    ```bash
+    tail -f /var/log/syslog
+    ```
+    `tail` gibt mit `-f` (follow) staendig die neuesten Zeilen einer Datei aus.
+
+79. **Datei auf anderen Rechner kopieren** (`scp`; sichere Dateiuebertragung)
+    ```bash
+    scp beispiel.txt benutzer@server:/pfad/
+    ```
+    `scp` (secure copy) uebertraegt Dateien verschluesselt zu einem anderen Rechner.
+
+80. **Status eines Dienstes pruefen** (`systemctl status`; Service-Info abrufen)
+    ```bash
+    systemctl status ssh
+    ```
+    `systemctl` (Systemkontrolle) zeigt mit `status` an, ob ein Dienst laeuft.
