@@ -17,3 +17,6 @@
 - [ ] secrets.example.json kopieren
 - [ ] Code mit black formatieren
 - [ ] Tests mit pytest ausfuehren
+- [ ] Eigenes Modul schreiben
+- [ ] defaults.yaml bearbeiten
+- [ ] Aenderungen mit Git committen

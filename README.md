@@ -54,3 +54,26 @@ Sieh dir auch die Datei `todo.txt` an und hänge dort eigene Aufgaben an.
    pytest -q
    ```
    Damit pruefst du, ob alles fehlerfrei laeuft.
+
+## Noch mehr Tipps
+
+7. **Eigenes Modul schreiben** (`module`; kleines Code-Stueck):
+   ```bash
+   echo 'print("Hallo WIZZARD")' > modules/beispiel.py
+   python modules/beispiel.py
+   ```
+   Ein Modul ist eine einzelne Python-Datei, in der du erste Funktionen testen kannst.
+
+8. **Konfiguration bearbeiten** (`configuration`; Einstellungen):
+   ```bash
+   nano config/defaults.yaml
+   ```
+   In dieser Datei kannst du zum Beispiel `app_name: WIZZARD` eintragen. Damit steuerst du Standardwerte.
+
+9. **Aenderungen speichern** (`commit`; Sicherungsschritt):
+   ```bash
+   git status
+   git add modules/beispiel.py config/defaults.yaml
+   git commit -m "Beispielmodul und Konfiguration"
+   ```
+   Mit Git bewahrst du den aktuellen Stand deines Projekts auf.
