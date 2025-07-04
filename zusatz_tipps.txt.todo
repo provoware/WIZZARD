@@ -1,0 +1,29 @@
+11. **Ordner erstellen** (`mkdir`; neuen Ordner anlegen)
+    ```bash
+    mkdir mein_ordner
+    ```
+    Mit diesem Befehl legst du einen neuen Ordner an.
+
+12. **Datei kopieren** (`cp`; Datei duplizieren)
+    ```bash
+    cp quelle.txt ziel.txt
+    ```
+    So erstellst du eine Kopie der Datei "quelle.txt" unter neuem Namen.
+
+13. **Datei verschieben** (`mv`; Datei verschieben oder umbenennen)
+    ```bash
+    mv alte_datei.txt neuer_ort/
+    ```
+    Damit legst du die Datei an einen anderen Ort oder gibst ihr einen neuen Namen.
+
+14. **Aktive Prozesse anzeigen** (`ps`; laufende Programme auflisten)
+    ```bash
+    ps aux
+    ```
+    Der Befehl zeigt dir alle im Moment laufenden Programme.
+
+15. **Netzwerkverbindung testen** (`ping`; Verbindung pruefen)
+    ```bash
+    ping -c 4 example.com
+    ```
+    "ping" sendet kleine Datenpakete, um zu pruefen, ob ein Rechner erreichbar ist.

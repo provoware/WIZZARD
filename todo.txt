@@ -31,3 +31,4 @@
 - [x] weiterfuehrende_vorschlaege.txt.todo erstellt (Neue Tipps fuer Anfaenger)
 - [x] weitere_tipps.txt.todo erstellt (Mehr Einsteigerhilfen)
 - [x] create_dummy_files.py.todo erstellt und Dummy-Dateien generiert
+- [x] zusatz_tipps.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
