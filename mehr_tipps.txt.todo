@@ -1,0 +1,29 @@
+16. **Dateiinhalt anzeigen** (`cat`; Text einer Datei ausgeben)
+    ```bash
+    cat beispiel.txt
+    ```
+    Der Befehl zeigt dir direkt im Terminal, was in der Datei steht.
+
+17. **Speicherplatz pruefen** (`df`; Platz auf der Festplatte anzeigen)
+    ```bash
+    df -h
+    ```
+    "df" zeigt, wie voll deine Festplatte ist (h wie human-readable fuer einfache Zahlen).
+
+18. **Dateigröße ermitteln** (`du`; Größe eines Ordners oder einer Datei)
+    ```bash
+    du -sh mein_ordner
+    ```
+    Damit siehst du, wie viel Platz ein Ordner belegt (s wie summary, h wie gut lesbar).
+
+19. **Letzte Befehle anzeigen** (`history`; Liste frueherer Befehle)
+    ```bash
+    history
+    ```
+    Dieser Befehl zeigt dir, was du zuvor alles eingegeben hast.
+
+20. **Versteckte Datei erstellen** (`touch`; neue Datei anlegen)
+    ```bash
+    touch .geheim.txt
+    ```
+    Der Punkt am Anfang macht die Datei unsichtbar, "touch" legt sie an.
