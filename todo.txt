@@ -45,3 +45,4 @@
 - [x] fortgeschrittene_tipps_8.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
 - [x] smart_ziel.txt.todo erstellt (Aufgaben nach Aufwand sortiert)
 - [x] fortgeschrittene_tipps_9.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_10.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
