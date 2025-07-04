@@ -167,3 +167,27 @@ Sieh ausserdem in `modul-pool.txt` nach Ideen fuer weitere Module.
     sphinx-quickstart docs
     ```
     So erzeugst du eine einfache HTML-Dokumentation.
+
+23. **Neuen Zweig erstellen** (`branch`; Arbeitszweig):
+    ```bash
+    git checkout -b neuer_zweig
+    ```
+    So kannst du Funktionen getrennt entwickeln.
+
+24. **Pull Request stellen** (`pull request`; Anfrage zur Codeaufnahme):
+    ```bash
+    git push origin neuer_zweig
+    ```
+    Danach kannst du auf GitHub einen Pull Request öffnen.
+
+25. **Logdatei ansehen** (`logfile`; Ablaufprotokoll):
+    ```bash
+    tail -n 20 logs/wizzard.log
+    ```
+    Damit prüfst du die letzten Meldungen des Programms.
+
+26. **Einfachen Webserver starten** (`local server`; Test-Server):
+    ```bash
+    python -m http.server
+    ```
+    So kannst du schnell Dateien im Browser anschauen.
