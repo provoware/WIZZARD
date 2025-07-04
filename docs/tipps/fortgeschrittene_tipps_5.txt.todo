@@ -1,0 +1,29 @@
+46. **Datei verschieben** (`mv`; Datei an anderen Ort verschieben)
+    ```bash
+    mv quelle.txt zielordner/
+    ```
+    `mv` (move) verschiebt oder benennt Dateien um.
+
+47. **Systemzeit anzeigen** (`date`; aktuelle Zeit und Datum anzeigen)
+    ```bash
+    date
+    ```
+    `date` zeigt dir Datum und Uhrzeit an.
+
+48. **Offene Netzwerkports anzeigen** (`ss`; aktuelle Verbindungen auflisten)
+    ```bash
+    ss -tuln
+    ```
+    `ss` listet Ports und Verbindungen. `-tuln` (TCP/UDP listening numeric) gibt sie kurz aus.
+
+49. **Text ersetzen** (`sed`; Text automatisch austauschen)
+    ```bash
+    sed -i 's/alt/neu/g' datei.txt
+    ```
+    `sed` (stream editor) ändert Text direkt in der Datei.
+
+50. **Archiv entpacken** (`tar`; gepacktes Archiv auspacken)
+    ```bash
+    tar -xzf archiv.tar.gz
+    ```
+    `tar` (tape archive) extrahiert Dateien aus einem Archiv.

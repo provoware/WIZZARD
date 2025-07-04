@@ -1,0 +1,29 @@
+41. **Arbeitsspeicher pruefen** (`free`; zeigt genutzten Speicher)
+    ```bash
+    free -h
+    ```
+    `free` zeigt dir, wie viel RAM belegt ist (h fuer leicht lesbare Werte).
+
+42. **Festplatten anzeigen** (`lsblk`; listet Laufwerke)
+    ```bash
+    lsblk
+    ```
+    `lsblk` gibt dir eine Uebersicht deiner angeschlossenen Platten.
+
+43. **Datei komprimieren** (`gzip`; Datei kleiner machen)
+    ```bash
+    gzip meine_datei.txt
+    ```
+    `gzip` erstellt eine kompakte Version deiner Datei mit Endung `.gz`.
+
+44. **Dateinamen ohne Pfad ausgeben** (`basename`; nur den Namen anzeigen)
+    ```bash
+    basename /pfad/zur/datei.txt
+    ```
+    `basename` entfernt den Verzeichnisteil und zeigt nur den Dateinamen.
+
+45. **Kurzbefehl erstellen** (`alias`; eigenes Kommando definieren)
+    ```bash
+    alias ll='ls -la'
+    ```
+    Mit `alias` kannst du ein langes Kommando kuerzer aufrufen.

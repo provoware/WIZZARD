@@ -1,0 +1,29 @@
+21. **Befehlsbeschreibung anzeigen** (`--help`; Erklaerung eines Befehls anzeigen)
+    ```bash
+    ls --help
+    ```
+    Damit laesst du dir alle Optionen des Befehls anzeigen.
+
+22. **Ordner wechseln** (`cd`; Verzeichnis wechseln)
+    ```bash
+    cd Ordnername
+    ```
+    "cd" steht fuer "change directory" und bringt dich in einen anderen Ordner.
+
+23. **Eine Datei bearbeiten** (`nano`; einfacher Texteditor)
+    ```bash
+    nano beispiel.txt
+    ```
+    "nano" eroeffnet eine Datei, die du direkt im Terminal bearbeiten kannst.
+
+24. **Datei herunterladen** (`wget`; Datei aus dem Internet laden)
+    ```bash
+    wget https://example.com/datei.txt
+    ```
+    "wget" holt eine Datei von einer angegebenen Adresse.
+
+25. **Systeminformationen anzeigen** (`uname`; Infos zum Betriebssystem)
+    ```bash
+    uname -a
+    ```
+    "uname" zeigt dir an, auf welchem System du arbeitest.

@@ -1,0 +1,29 @@
+61. **Schnell nach Befehlen suchen** (`history`; zeigt eingegebene Befehle)
+    ```bash
+    history | grep python
+    ```
+    `history` listet deine letzten Befehle. Mit `grep` suchst du darin nach Schlagwoertern.
+
+62. **Datei herunterladen** (`wget`; Datei aus dem Internet holen)
+    ```bash
+    wget https://beispiel.de/datei.txt
+    ```
+    `wget` (web get) speichert Daten von einer Adresse auf deinem Rechner.
+
+63. **Ordner groesse pruefen** (`du`; zeigt belegten Platz)
+    ```bash
+    du -sh mein_ordner
+    ```
+    `du` (disk usage) ermittelt, wie viel Speicher ein Ordner belegt (`-s` fuer Zusammenfassung, `-h` fuer leicht lesbare Groessenangaben).
+
+64. **Netzwerkfehler debuggen** (`traceroute`; zeigt Zwischenschritte im Netz)
+    ```bash
+    traceroute example.com
+    ```
+    `traceroute` listet alle Stationen, die ein Datenpaket bis zum Ziel nimmt.
+
+65. **Datei aus Archiv entpacken** (`tar`; Archivdatei entpacken)
+    ```bash
+    tar -xvf backup.tar
+    ```
+    `tar` (tape archive) extrahiert mit `-xvf` die Inhalte einer Archivdatei.

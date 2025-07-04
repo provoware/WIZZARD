@@ -25,5 +25,24 @@
 - [ ] Code zu GitHub pushen
 - [ ] Modulideen pruefen
 - [ ] Backup des Projekts erstellen
-- [ ] Textsuche mit grep ausprobieren
+- [x] grep_tipps.txt.todo erstellt (Textsuche mit grep)
 - [ ] Abhaengigkeiten einfrieren
+- [x] datei-liste.txt.todo erstellt (Liste aller Dateien generiert)
+- [x] weiterfuehrende_vorschlaege.txt.todo erstellt (Neue Tipps fuer Anfaenger)
+- [x] weitere_tipps.txt.todo erstellt (Mehr Einsteigerhilfen)
+- [x] create_dummy_files.py.todo erstellt und Dummy-Dateien generiert
+- [x] zusatz_tipps.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] mehr_tipps.txt.todo erstellt (Weitere Laienvorschlaege)
+- [x] neue_tipps.txt.todo erstellt (Noch mehr Laienvorschlaege)
+- [x] fortgeschrittene_tipps.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_2.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_3.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_4.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_5.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_6.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] ordnerstruktur aktualisiert (Dateien sortiert)
+- [x] fortgeschrittene_tipps_7.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_8.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] smart_ziel.txt.todo erstellt (Aufgaben nach Aufwand sortiert)
+- [x] fortgeschrittene_tipps_9.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_10.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)

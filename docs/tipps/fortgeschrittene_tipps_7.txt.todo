@@ -1,0 +1,29 @@
+56. **Eigenen Prozess suchen** (`ps`; zeigt laufende Programme an)
+    ```bash
+    ps aux | grep name
+    ```
+    `ps` (process status) listet Prozesse; `grep` filtert nach dem Namen.
+
+57. **Fehler in Text finden** (`grep`; durchsucht Zeilen nach Worten)
+    ```bash
+    grep -n "Fehler" protokoll.txt
+    ```
+    `grep` zeigt Zeilennummern (`-n`) an, die den Suchbegriff enthalten.
+
+58. **Laufende Netzwerkverbindungen anzeigen** (`ss`; zeigt Ports und Verbindungen)
+    ```bash
+    ss -tuln
+    ```
+    `ss` (socket statistics) listet TCP/UDP Ports (`-tuln`) auf.
+
+59. **Dateiliste sortieren** (`ls`; mit alphabetischer Sortierung)
+    ```bash
+    ls -1 | sort
+    ```
+    `sort` ordnet die Ausgabe von `ls` Zeile fuer Zeile.
+
+60. **Datum und Uhrzeit anhaengen** (`date`; gibt aktuelles Datum aus)
+    ```bash
+    echo "Backup_$(date +%Y%m%d).zip"
+    ```
+    `date` formatiert mit `+%Y%m%d` Jahr, Monat und Tag fuer Dateinamen.

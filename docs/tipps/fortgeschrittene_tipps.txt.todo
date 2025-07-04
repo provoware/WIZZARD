@@ -1,0 +1,29 @@
+26. **Installierte Pakete aktualisieren** (`pip upgrade`; bereits installierte Pakete erneuern)
+    ```bash
+    python -m pip install --upgrade paketname
+    ```
+    Damit holst du dir die neueste Version eines Pakets.
+
+27. **Dateirechte aendern** (`chmod`; erlaubt oder verbietet Zugriff)
+    ```bash
+    chmod 644 datei.txt
+    ```
+    "chmod" steuert, wer die Datei lesen oder schreiben darf.
+
+28. **Belegten Speicher anzeigen** (`du`; Verbrauch eines Ordners pruefen)
+    ```bash
+    du -sh /pfad/zum/ordner
+    ```
+    So findest du heraus, wie viel Platz ein Ordner braucht.
+
+29. **Systempaket installieren** (`apt`; Paket aus den Systemquellen holen)
+    ```bash
+    sudo apt install paketname
+    ```
+    "apt" laedt Programme aus den offiziellen Quellen deines Systems.
+
+30. **Neue Umgebungsvariable setzen** (`export`; Variable fuer die Sitzung setzen)
+    ```bash
+    export MEIN_WERT=42
+    ```
+    Mit "export" machst du eine Variable fuer andere Befehle verfuegbar.

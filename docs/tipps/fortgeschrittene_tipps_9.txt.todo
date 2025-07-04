@@ -1,0 +1,30 @@
+66. **Code automatisch formatieren** (`black`; sorgt fuer einheitliche Formatierung)
+    ```bash
+    python -m black .
+    ```
+    `black` (Code-Formatter) durchsucht alle Dateien im aktuellen Ordner und ordnet Einrueckungen und Leerzeichen.
+
+67. **Virtuelle Umgebung erstellen** (`venv`; isoliert Python-Abhaengigkeiten)
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+    `venv` (virtual environment) richtet einen eigenen Python-Bereich ein, `activate` schaltet ihn ein.
+
+68. **Pakete installieren** (`pip install`; holt benoetigte Bibliotheken)
+    ```bash
+    python -m pip install -r requirements.txt
+    ```
+    `pip` (Python Package Installer) laedt alles aus der Datei `requirements.txt`.
+
+69. **Beispielkonfiguration kopieren** (`cp`; Datei duplizieren)
+    ```bash
+    cp config/secrets.example.json config/secrets.json
+    ```
+    Mit `cp` erstellst du aus der Vorlage eine eigene Konfigurationsdatei.
+
+70. **Grafische Oberflaeche starten** (`bash`; Skript starten)
+    ```bash
+    bash scripts/start_wizard.sh
+    ```
+    Das Skript oeffnet die einfache GUI, um Einstellungen zu pruefen.

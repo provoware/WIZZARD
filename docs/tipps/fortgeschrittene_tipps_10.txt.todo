@@ -1,0 +1,29 @@
+71. **Dateien zaehlen** (`wc -l`; Zeilen zaehlen)
+    ```bash
+    wc -l datei.txt
+    ```
+    `wc` (word count) zeigt die Anzahl der Zeilen (`-l`) der Datei.
+
+72. **Platzverbrauch pruefen** (`df`; freier Speicher)
+    ```bash
+    df -h
+    ```
+    `df` (disk free) listet den freien und belegten Platz (`-h` fuer leicht lesbare Groessen) auf.
+
+73. **Systeminformationen anzeigen** (`uname`; Betriebssystem anzeigen)
+    ```bash
+    uname -a
+    ```
+    `uname` (unix name) zeigt Details zum System; `-a` gibt alle Infos aus.
+
+74. **Prozesse sortiert anzeigen** (`top`; laufende Prozesse)
+    ```bash
+    top
+    ```
+    `top` (task manager) zeigt die momentan aktiven Prozesse an; mit `q` beendest du es.
+
+75. **Archiv erstellen** (`tar`; mehrere Dateien packen)
+    ```bash
+    tar -cvf archiv.tar mein_ordner/
+    ```
+    `tar` (tape archive) erstellt mit `-cvf` (create, verbose, file) ein Archiv.

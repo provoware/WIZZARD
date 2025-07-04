@@ -1,0 +1,29 @@
+51. **Dateien vergleichen** (`diff`; zeigt Unterschiede zwischen zwei Dateien)
+    ```bash
+    diff alt.txt neu.txt
+    ```
+    `diff` (difference) listet Zeilen auf, die sich unterscheiden.
+
+52. **Zeilen zaehlen** (`wc`; wie viele Zeilen eine Datei hat)
+    ```bash
+    wc -l datei.txt
+    ```
+    `wc` (word count) mit `-l` gibt nur die Zeilenzahl zurueck.
+
+53. **Bestimmte Dateien suchen** (`find`; sucht nach Namen in Ordnern)
+    ```bash
+    find . -name "*.log"
+    ```
+    `find` durchlaeuft Verzeichnisse und listet Treffer auf.
+
+54. **Datei per URL laden** (`curl`; Daten von einer Adresse holen)
+    ```bash
+    curl -O https://beispiel.de/datei.txt
+    ```
+    `curl` (client URL) laedt Dateien direkt herunter.
+
+55. **Dienst neu starten** (`systemctl`; Prozess im Hintergrund neu starten)
+    ```bash
+    sudo systemctl restart dienstname
+    ```
+    `systemctl` steuert Systemdienste; `restart` startet sie neu.
