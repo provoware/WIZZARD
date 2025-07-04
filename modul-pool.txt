@@ -1,0 +1,9 @@
+# Modul-Pool
+
+Hier findest du einfache Ideen fuer neue Module.
+
+- Statistik-Modul (analytics): Daten sammeln und grafisch darstellen.
+- Chat-Modul (chat): Textunterhaltung innerhalb des Tools.
+- Wetter-Modul (weather): Wettervorhersage aus dem Internet.
+- Timer-Modul (timer): Erinnerungen und Countdown.
+- Demo-Plugin (demo-plugin): Vorlage fuer eigene Experimente.
