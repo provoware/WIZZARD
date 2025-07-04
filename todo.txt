@@ -20,3 +20,7 @@
 - [ ] Eigenes Modul schreiben
 - [ ] defaults.yaml bearbeiten
 - [ ] Aenderungen mit Git committen
+
+- [ ] Pre-Commit-Hooks ausfuehren
+- [ ] Code zu GitHub pushen
+- [ ] Modulideen pruefen

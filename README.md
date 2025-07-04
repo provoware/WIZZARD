@@ -77,3 +77,17 @@ Sieh dir auch die Datei `todo.txt` an und hänge dort eigene Aufgaben an.
    git commit -m "Beispielmodul und Konfiguration"
    ```
    Mit Git bewahrst du den aktuellen Stand deines Projekts auf.
+
+10. **Pre-Commit-Hooks ausfuehren** (`pre-commit`; automatische Pruefungen):
+    ```bash
+    bash scripts/pre-commit
+    ```
+    Dieser Schritt startet kleine Tests vor jedem Git-Commit.
+
+11. **Aenderungen online stellen** (`push`; Hochladen zu GitHub):
+    ```bash
+    git push origin main
+    ```
+    So landet dein Code in deinem Online-Repository.
+
+Sieh ausserdem in `modul-pool.txt` nach Ideen fuer weitere Module.
