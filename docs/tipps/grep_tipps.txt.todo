@@ -1,0 +1,29 @@
+1. **Zeile mit Wort finden** (`grep`; sucht in Textdateien)
+   ```bash
+   grep "Fehler" protokoll.txt
+   ```
+   `grep` (global regular expression print) zeigt jede Zeile, die das Wort "Fehler" enthält.
+
+2. **Groß-/Kleinschreibung ignorieren** (`grep -i`; nicht auf die Schreibweise achten)
+   ```bash
+   grep -i "start" README.md
+   ```
+   Mit `-i` findet `grep` auch "Start" oder "START", egal wie es geschrieben ist.
+
+3. **Mehrere Dateien durchsuchen** (`grep -r`; rekursiv in Ordnern suchen)
+   ```bash
+   grep -r "TODO" src/
+   ```
+   `-r` bedeutet, dass `grep` alle Unterordner von `src/` durchsucht.
+
+4. **Zeilennummern anzeigen** (`grep -n`; zeigt an, wo im Text etwas steht)
+   ```bash
+   grep -n "Version" docs/*.md
+   ```
+   `-n` fügt die Zeilennummer jeder Fundstelle hinzu, damit du sie leichter findest.
+
+5. **Nur Dateinamen ausgeben** (`grep -l`; nur die Trefferlisten)
+   ```bash
+   grep -l "import" *.py
+   ```
+   Mit `-l` listet `grep` nur die Dateinamen auf, in denen der Begriff vorkommt.
