@@ -1,0 +1,32 @@
+# SMART-Ziel fuer naechste Schritte
+
+Diese Liste sortiert offene Aufgaben nach voraussichtlichem Code-Aufwand. Sie ermoeglicht es, schnell Fortschritte zu machen und den Ueberblick zu behalten.
+
+1. **Textsuche mit grep ausprobieren** - ein kurzer Testbefehl zum Ueben.
+2. **Code mit black formatieren** - Befehl `black .` aufrufen, dauert nur wenige Sekunden.
+3. **Virtuelle Umgebung einrichten** - mit `python -m venv venv` erstellen und aktivieren.
+4. **Abhaengigkeiten mit pip installieren** - `python -m pip install -r requirements.txt`.
+5. **secrets.example.json kopieren** - Datei duplizieren und umbenennen.
+6. **start_wizard.sh ausprobieren** - Skript ausfuehren, um die GUI zu starten.
+7. **defaults.yaml bearbeiten** - Werte pruefen und anpassen.
+8. **Konfiguration pruefen und anpassen** - Einstellungen durchgehen, ggf. korrigieren.
+9. **Aenderungen mit Git committen** - `git add` und `git commit` nutzen.
+10. **Pre-Commit-Hooks ausfuehren** - `pre-commit run --all-files` testen.
+11. **Code zu GitHub pushen** - `git push origin main`.
+12. **Backup des Projekts erstellen** - Ordner zippen oder extern kopieren.
+13. **Abhaengigkeiten einfrieren** - `pip freeze > requirements.txt`.
+14. **Tests mit pytest ausfuehren** - `pytest -q` starten.
+15. **Python-Abhaengigkeiten installieren** - ggf. spezifische Pakete nachinstallieren.
+16. **Projektstruktur vervollstaendigen** - Dateien sortieren und organisieren.
+17. **Release-Paket vorbereiten** - Script oder Tool fuer .deb/AppImage anlegen.
+18. **Eigenes Modul schreiben** - Beispielmodul entwickeln und einbinden.
+19. **GUI-Startskript testen** - Funktionen pruefen und Fehler beheben.
+20. **start_wizard.sh um Logging erweitern** - Script anpassen und Optionen hinzufuegen.
+21. **Theming vereinheitlichen** - Farben und Schriftarten angleichen, Fehlermeldungen anzeigen.
+22. **Pluginsystem mit pluggy einrichten** - BaseModule anlegen und Demo-Plugin bauen.
+23. **Hot-Reload und Speicherung letzter Plugin-Auswahl** - Mechanismus implementieren.
+24. **Unit- und UI-Tests mit pytest-qt erstellen** - Testfaelle entwickeln.
+25. **Modulideen pruefen** - moegliche Erweiterungen bewerten.
+26. **Release-Paket final erstellen** - automatisierten Build fuer Endnutzer aufsetzen.
+
+Jede Aufgabe laesst sich durch kurze Commits messen. Ziel ist es, innerhalb der naechsten vier Wochen stetig Fortschritt zu erzielen und taeglich eine der leichten Aufgaben abzuschliessen.

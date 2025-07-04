@@ -42,3 +42,5 @@
 - [x] fortgeschrittene_tipps_6.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
 - [x] ordnerstruktur aktualisiert (Dateien sortiert)
 - [x] fortgeschrittene_tipps_7.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] fortgeschrittene_tipps_8.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] smart_ziel.txt.todo erstellt (Aufgaben nach Aufwand sortiert)
