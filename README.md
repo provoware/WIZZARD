@@ -91,3 +91,23 @@ Sieh dir auch die Datei `todo.txt` an und hänge dort eigene Aufgaben an.
     So landet dein Code in deinem Online-Repository.
 
 Sieh ausserdem in `modul-pool.txt` nach Ideen fuer weitere Module.
+
+## Weitere einfache Vorschlaege
+
+12. **Backup erstellen** (`backup`; Sicherung des Projekts):
+    ```bash
+    zip -r project_backup.zip .
+    ```
+    Damit sicherst du alle Dateien in einer Archivdatei.
+
+13. **Text durchsuchen** (`grep`; Suche in Dateien):
+    ```bash
+    grep -R "Beispiel" .
+    ```
+    So findest du schnell Stellen mit einem bestimmten Wort.
+
+14. **Abhaengigkeiten einfrieren** (`freeze`; Versionen merken):
+    ```bash
+    pip freeze > requirements.txt
+    ```
+    Dadurch speicherst du alle installierten Bibliotheken in `requirements.txt`.

@@ -24,3 +24,6 @@
 - [ ] Pre-Commit-Hooks ausfuehren
 - [ ] Code zu GitHub pushen
 - [ ] Modulideen pruefen
+- [ ] Backup des Projekts erstellen
+- [ ] Textsuche mit grep ausprobieren
+- [ ] Abhaengigkeiten einfrieren
