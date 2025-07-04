@@ -27,3 +27,8 @@
 - [ ] Backup des Projekts erstellen
 - [ ] Textsuche mit grep ausprobieren
 - [ ] Abhaengigkeiten einfrieren
+- [ ] Dokumentation lesen
+- [ ] Linter mit ruff ausfuehren
+- [ ] Typen mit mypy pruefen
+- [ ] Pakete aktualisieren
+- [ ] Umgebungsvariablen setzen

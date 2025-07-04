@@ -111,3 +111,38 @@ Sieh ausserdem in `modul-pool.txt` nach Ideen fuer weitere Module.
     pip freeze > requirements.txt
     ```
     Dadurch speicherst du alle installierten Bibliotheken in `requirements.txt`.
+
+## Weiterfuehrende Laienvorschlaege
+
+15. **Dokumentation lesen** (`docs`; Erklaerungstexte):
+    ```bash
+    less docs/README.md
+    ```
+    So bekommst du mehr Infos ueber das Projekt.
+
+16. **Linter ausfuehren** (`ruff`; Codepruefung):
+    ```bash
+    pip install ruff
+    ruff .
+    ```
+    Ruff sucht nach typischen Fehlern im Quellcode.
+
+17. **Typen pruefen** (`mypy`; Typkontrolle):
+    ```bash
+    pip install mypy
+    mypy src
+    ```
+    Mypy zeigt dir Stellen mit unklaren Datentypen.
+
+18. **Pakete aktualisieren** (`update`; neueste Versionen):
+    ```bash
+    pip list --outdated
+    pip install -U <paketname>
+    ```
+    Damit bringst du Bibliotheken auf den aktuellen Stand.
+
+19. **Umgebungsvariablen setzen** (`environment variable`; kleine Einstellung):
+    ```bash
+    export DEBUG=true
+    ```
+    So kannst du spezielle Optionen aktivieren.
