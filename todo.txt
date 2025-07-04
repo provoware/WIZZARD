@@ -33,3 +33,4 @@
 - [x] create_dummy_files.py.todo erstellt und Dummy-Dateien generiert
 - [x] zusatz_tipps.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
 - [x] mehr_tipps.txt.todo erstellt (Weitere Laienvorschlaege)
+- [x] neue_tipps.txt.todo erstellt (Noch mehr Laienvorschlaege)
