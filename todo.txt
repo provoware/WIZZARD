@@ -9,3 +9,8 @@
 - [ ] Theming vereinheitlichen und Fehlermeldungen anzeigen
 - [ ] Unit- und UI-Tests mit pytest-qt erstellen
 - [ ] start_wizard.sh um Logging und Parameter erweitern
+
+- [ ] Virtuelle Umgebung einrichten
+- [ ] Abhaengigkeiten mit pip installieren
+- [ ] Konfiguration pruefen und anpassen
+- [ ] start_wizard.sh ausprobieren
