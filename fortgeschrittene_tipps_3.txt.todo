@@ -1,0 +1,29 @@
+36. **Handbuch aufrufen** (`man`; ausfuehrliche Hilfe anzeigen)
+    ```bash
+    man ls
+    ```
+    "man" oeffnet die Handbuchseite eines Befehls und erklaert seine Optionen.
+
+37. **Programmpfad finden** (`which`; zeigt Speicherort eines Befehls)
+    ```bash
+    which python
+    ```
+    "which" sagt dir, wo ein Programm im Dateisystem liegt.
+
+38. **Befehl als Administrator ausfuehren** (`sudo`; mit hoeheren Rechten starten)
+    ```bash
+    sudo apt update
+    ```
+    "sudo" fuehrt einen Befehl mit mehr Rechten aus, wenn du das darfst.
+
+39. **IP-Adresse anzeigen** (`ip`; Informationen zum Netzwerk)
+    ```bash
+    ip addr show
+    ```
+    "ip" liefert dir Details zu deinen Netzwerkschnittstellen.
+
+40. **Prozesse beobachten** (`top`; laufende Programme und Auslastung)
+    ```bash
+    top
+    ```
+    "top" zeigt dir in Echtzeit, welche Prozesse gerade wie viel Rechenleistung verbrauchen.
