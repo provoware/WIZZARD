@@ -34,3 +34,4 @@
 - [x] zusatz_tipps.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
 - [x] mehr_tipps.txt.todo erstellt (Weitere Laienvorschlaege)
 - [x] neue_tipps.txt.todo erstellt (Noch mehr Laienvorschlaege)
+- [x] fortgeschrittene_tipps.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
