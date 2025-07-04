@@ -40,3 +40,5 @@
 - [x] fortgeschrittene_tipps_4.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
 - [x] fortgeschrittene_tipps_5.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
 - [x] fortgeschrittene_tipps_6.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
+- [x] ordnerstruktur aktualisiert (Dateien sortiert)
+- [x] fortgeschrittene_tipps_7.txt.todo erstellt (Weiterfuehrende Laienvorschlaege)
