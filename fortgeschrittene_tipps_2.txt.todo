@@ -1,0 +1,29 @@
+31. **Prozess beenden** (`kill`; laufendes Programm beenden)
+    ```bash
+    kill 1234
+    ```
+    "kill" schickt ein Signal an einen Prozess (Programm), um ihn zu stoppen.
+
+32. **Logdatei ansehen** (`tail`; letzte Zeilen einer Datei anzeigen)
+    ```bash
+    tail -n 20 /var/log/syslog
+    ```
+    "tail" gibt die letzten Zeilen einer Datei aus, hier 20 Zeilen.
+
+33. **Archiv erstellen** (`tar`; Ordner zusammenpacken)
+    ```bash
+    tar -czf archiv.tar.gz mein_ordner/
+    ```
+    "tar" legt eine Sammeldatei an und komprimiert sie mit gzip (-z).
+
+34. **Aktuellen Pfad zeigen** (`pwd`; aktuelles Verzeichnis anzeigen)
+    ```bash
+    pwd
+    ```
+    "pwd" zeigt den kompletten Pfad zu deinem jetzigen Ort an.
+
+35. **Per SSH verbinden** (`ssh`; sichere Verbindung zu anderem Rechner)
+    ```bash
+    ssh benutzer@serveradresse
+    ```
+    Mit "ssh" meldest du dich ueber das Netzwerk auf einem anderen Rechner an.
